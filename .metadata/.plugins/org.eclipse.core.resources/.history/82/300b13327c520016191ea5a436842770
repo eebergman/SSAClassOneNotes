@@ -3,6 +3,7 @@ package com.dice;
 public class Cup {
 
 	private Die[] dice = new Die[5];
+	private boolean yahtzee = false;
 
 	public Cup() {
 
@@ -16,12 +17,22 @@ public class Cup {
 		for (int i = 0; i < dice.length; i++) {
 			dice[i].rollDie();
 			
+			if (dice[0] == dice[i]) {
+				yahtzee = true;
+			}
+			
+			System.out.println(yahtzee);
+			
 		}
 	}
 	
 	public void printResult() {
 		for (int i = 0; i < dice.length; i++) {
 			System.out.println("Die " + (i + 1) + " is " + dice[i].getValue());
+			
+			if (yahtzee){
+				System.out.println("YAHTZEE!!!");
+			}
 			
 		}
 	}
