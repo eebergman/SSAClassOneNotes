@@ -1,0 +1,24 @@
+package com.dice;
+
+public class Die {
+	
+	private int sides = 6;
+	
+	
+
+	public Die(int sides) {
+		this.sides = sides;
+	}
+
+	public int getSides() {
+		return sides;
+	}
+
+	public void setSides(int sides) {
+		this.sides = sides;
+	}
+	
+	
+	
+
+}

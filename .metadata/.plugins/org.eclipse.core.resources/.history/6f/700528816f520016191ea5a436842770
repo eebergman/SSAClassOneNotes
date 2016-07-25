@@ -1,0 +1,18 @@
+package com.dice;
+
+public class Yatzee {
+
+	public static void main(String[] args) {
+		
+		Die die = new Die();
+		
+		
+		for (int i = 0; i < 6; i++) {
+			int roll = (int) (Math.random() * die.getSides()) + 1;
+		
+		System.out.println("Roll " + i + " is " + roll);
+		}
+		
+	}
+
+}

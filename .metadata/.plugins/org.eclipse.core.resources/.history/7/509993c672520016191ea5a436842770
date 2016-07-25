@@ -1,0 +1,13 @@
+package com.dice;
+
+public class Cup {
+	
+	private Die[] dice;
+	
+	public Cup() {
+		
+	}
+	
+	dice[6] = 
+
+}

@@ -1,0 +1,15 @@
+package com.dice;
+
+public class Yatzee {
+
+	public static void main(String[] args) {
+		
+		Die die = new Die();
+		
+		
+
+		int roll = (int) (Math.random() * die.) + 1;
+		
+	}
+
+}

@@ -1,0 +1,35 @@
+package com.dice;
+
+public class Cup {
+
+	private Die[] dice = new Die[5];
+
+	public Cup() {
+
+		for (int i = 0; i < dice.length; i++) {
+			dice[i] = new Die();
+		}
+
+	}
+		
+	public void rollCup() {
+		for (int i = 0; i < dice.length; i++) {
+			dice[i].rollDie();
+		}
+	}
+	
+	public void printResult() {
+		for (int i = 0; i < dice.length; i++) {
+			System.out.println("Die " + (i + 1) + " is " + dice[i].getValue());
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		Cup cupA = new Cup();
+		
+		cupA.rollCup();
+		cupA.printResult();
+	}
+	
+}

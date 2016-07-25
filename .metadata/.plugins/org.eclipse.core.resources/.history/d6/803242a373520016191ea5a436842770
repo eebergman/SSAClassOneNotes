@@ -1,0 +1,18 @@
+package com.dice;
+
+public class Cup {
+
+	private Die[] dice = new Die[5];
+
+	public Cup() {
+
+		for (int i = 0; i < dice.length; i++) {
+			dice[i] = new Die();
+		}
+
+	}
+
+	public Die[] getDice() {
+		return dice;
+	}
+}
