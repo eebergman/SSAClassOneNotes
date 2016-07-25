@@ -1,0 +1,19 @@
+package com.theironyard;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Person robert = new Person();
+
+		String fullName = robert.getFullName();
+
+		System.out.println(fullName);
+
+		boolean john;
+		String peter = null;
+		Boolean john2;
+
+	}
+
+}

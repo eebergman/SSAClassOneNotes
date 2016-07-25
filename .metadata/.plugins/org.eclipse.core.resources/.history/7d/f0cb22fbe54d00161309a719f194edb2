@@ -1,0 +1,25 @@
+package com.ssaweek1.assignment1;
+
+public class Car 
+{
+    String make;
+    String model;
+    String color;
+    String transmission;
+    Float mpg;
+    
+    public Car()
+    {
+	make = "Volkswagen";
+	model = "Golf";
+	color = "black";
+	transmission = "manual";
+	mpg = 27.8f;
+    }
+    
+    public String getCarDescription()
+    {
+	return "A " + color + " " + make + " " + model + " with a " + transmission + " transmission. It gets " + mpg + " miles per gallon.";
+    }
+    
+}

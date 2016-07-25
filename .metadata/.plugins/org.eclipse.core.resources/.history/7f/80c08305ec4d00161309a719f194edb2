@@ -1,0 +1,13 @@
+package com.assignment1;
+
+public class book {
+	
+	String genre;
+	String title;
+	String pages;
+	float price;
+	
+	
+	
+
+}

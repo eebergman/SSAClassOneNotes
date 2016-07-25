@@ -1,0 +1,19 @@
+package com.assignment1;
+
+public class Book {
+	
+	String genre;
+	String title;
+	String pages;
+	float price;
+	
+	public Book() {
+		genre = "Sci-fi";
+		title = "The Rowan";
+		pages = "369";
+		price = 5.62f;
+		
+	}
+	
+
+}

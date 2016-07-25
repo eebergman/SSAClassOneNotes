@@ -1,0 +1,13 @@
+package com.theironyard;
+
+public class Person {
+	String firstName;
+	String middleInital;
+	String lastName;
+
+	public String getFullName() {
+		return firstName + " " + middleInital + " " + lastName;
+	}
+
+
+}

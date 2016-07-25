@@ -1,0 +1,22 @@
+package com.ssa1.assignment1;
+
+public class Dog {
+	
+	String breed;
+	String color;
+	Integer age;
+	
+	public Dog()
+	{
+		breed = "Australian Sheperd";
+		color = "Black";
+		age = 4; 
+	}
+	
+	public String getInfo()
+	{
+		return breed + " " + color + " " + age;
+	}
+	
+
+}
