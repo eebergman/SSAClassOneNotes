@@ -1,0 +1,11 @@
+package com.theraces;
+
+public class Racecar {
+
+	private String sponser;
+	private float weight;
+
+	private Engine engine;
+	private Driver driver;
+
+}

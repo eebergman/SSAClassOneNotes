@@ -9,7 +9,9 @@ public class Racecar {
 	
 	
 	
-	public Racecar() {
+	public Racecar(int torque, int topSpeed) {
+		this.sponser = "The Iron Yard Racing";
+		this.engine = new Engine(torque, topSpeed);
 	}
 	
 	
@@ -22,7 +24,7 @@ public class Racecar {
 	}
 	
 	public void stop() {
-		
+		engine.stopEngine();
 	}
 
 }

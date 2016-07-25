@@ -782,3 +782,9 @@ java.lang.NullPointerException
 	at org.eclipse.epp.internal.logging.aeri.ide.IDEStartup$2.send(IDEStartup.java:107)
 	at org.eclipse.epp.internal.logging.aeri.ide.utils.UploadReportsScheduler$UploadJob.run(UploadReportsScheduler.java:118)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-25 09:18:19.179
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-25 09:18:19.206
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
